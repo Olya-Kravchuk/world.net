@@ -26,6 +26,13 @@ address {
   padding: 0 15px;
   margin: 0 auto;
 }
+.section-title {
+  color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.33;
+}
 .header {
   border-bottom: 1px solid #5F0A61;
 }
@@ -122,3 +129,47 @@ color: #434B53;
 }
 
 .hero-img {}
+
+.choice {
+  padding: 172px 130px;
+  background-color: #FAFAFA;
+}
+
+.choice-container {}
+
+.container {}
+
+.choice-title {
+  padding-bottom: 60px;
+}
+
+.choice-list {
+  display: flex;
+  gap: 53px;
+}
+
+.choice-item {
+  width: calc((100% - 2 * 53px) / 3);
+}
+
+.choice-img {
+  margin: 0 auto;
+  margin-bottom: 11px;
+}
+
+.choice-subtitle {
+  color: #000;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.43;
+    margin-bottom: 4px;
+}
+
+.choice-text {
+  color: #000;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 358.507px;
+    height: 81px;
+}
