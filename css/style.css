@@ -25,6 +25,7 @@ address {
   width: 1208px;
   padding: 0 15px;
   margin: 0 auto;
+  outline: 2px solid red;
 }
 .section-title {
   color: #000;
@@ -173,3 +174,118 @@ color: #434B53;
     width: 358.507px;
     height: 81px;
 }
+.connection {
+  padding: 175px 130px 177px;
+}
+
+.connection-container {
+  display: flex;
+  gap: 97px;
+}
+.connection-img {
+  display: block;
+}
+
+.connection-container-text {
+ 
+}
+
+
+.connection-title {
+  margin-bottom: 20px;
+  width: 376px;
+  height: 94px;
+}
+
+.connection-text {
+  color: #434B53;
+  font-size: 21px;
+  line-height: 1.43;
+  letter-spacing: -0.009em;
+  margin-bottom: 28px;
+}
+
+.connection-list {
+  display: flex;
+  gap: 71px;
+}
+
+.connection-item {}
+.connection-text-numbers {
+  color: #5F0A61;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.33;
+  width: 101px;
+  margin-bottom: 6px;
+}
+
+.connection-text-activ {
+  width: 146px;
+  color: #2E363E;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.50;
+}
+
+
+
+.feedback {}
+
+.feedback-container {}
+
+.feedback-title {}
+
+.feedback-subtitle {}
+
+.feedback-text {}
+
+.feedback-link {}
+
+.feedback-img {}
+
+.feedback-subtitle-name {}
+
+.feedback-text-city {}
+
+.tariff {}
+
+.tariff-container {}
+
+.tariff-title {}
+
+.tariff-list {}
+
+.tariff-link {}
+
+.tariff-img {}
+
+.tariff-subtitle {}
+
+.tariff-price {}
+
+.tariff-text {}
+
+.tariff-speed {}
+
+.request {}
+
+.request-container {}
+
+.request-title {}
+
+.request-text {}
+
+.footer {}
+
+.footer-container {}
+
+.footer-link {}
+
+.footer-soc-list {}
+
+.footer-soc-item {}
+
+.footer-soc-link {}
+
+.footer-tel-link {}
