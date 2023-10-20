@@ -53,7 +53,7 @@
       <h1 class="hero-title">Reliable Home Internet and TV Provider</h1>
       <p class="hero-text">We work only in small towns. Thanks to this,
         we maintain quality and we will not spray</p>
-      <button class="hero-btn" type="button">Submit your application</button>
+      <button class="hero-btn" type="button" data-modal-open>Submit your application</button>
       </div>
       <img class="hero-img"
       src="./image/hero-img.svg" alt=""
@@ -170,6 +170,25 @@
       <a class="footer-tel-link" href="tel:88006549732">8 (800) 654-97-32</a>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" type="button" data-modal-close>
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href=""></use>
+          </svg>
+        </button>
+        <p class="modal-subtitle">Contact Us</p>
+        <p class="modal-title"><span class="modal-title-span">Contact</span> Us & We Can Work Together</p>
+        <p class="modal-text">Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu enim id gravida pulvinar. Tristique consectetur mi curabitur congue enim dignissim </p>
+        <form class="modal-form">
+          <label class="modal-label" aria-label="user-name"></label><input class="modal-input" type="nane" name="user-name" placeholder="Your Name"></label>
+          <label class="modal-label" aria-label="user-email"></label><input class="modal-input" type="email" name="user-email" placeholder="Your Email"></label>
+          <label class="modal-label" aria-label="user-massage"></label><textarea class="modal-textarea" name="user-massage" id="" placeholder="Your Message"></textarea></label>
+          <button class="modal-form-btn" type="submit">Submit Message</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
